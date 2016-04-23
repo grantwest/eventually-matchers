@@ -24,3 +24,8 @@ To test a value we use a lambda:
 boolean b = false; //Some other thread will set b to true
 assertThat(() -> b, eventuallyEval(is(true)));
 ```
+
+The eventually matchers have a default timeout of 5 seconds. The timeout can be overridden like this:
+```java
+assertThat(() -> b, eventuallyEval(is(true), Duration.ofSeconds(30)));
+```
