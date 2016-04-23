@@ -29,3 +29,8 @@ The eventually matchers have a default timeout of 5 seconds. The timeout can be 
 ```java
 assertThat(() -> b, eventuallyEval(is(true), Duration.ofSeconds(30)));
 ```
+
+
+The matchers are known to work with:
+- junit 4.12
+- java-hamcrest 2.0.0.0
