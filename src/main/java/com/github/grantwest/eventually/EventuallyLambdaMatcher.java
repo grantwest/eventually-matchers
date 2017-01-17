@@ -50,6 +50,6 @@ public class EventuallyLambdaMatcher<T> extends TypeSafeMatcher<Supplier<T>> {
 
     @Override
     public void describeMismatchSafely(Supplier<T> lambda, Description mismatchDescription) {
-        mismatchDescription.appendText(val.toString());
+        mismatchDescription.appendText(String.valueOf(val));
     }
 }
