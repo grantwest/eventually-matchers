@@ -9,7 +9,7 @@ These matchers are available via Maven Central. Add this to your pom.xml:
 <dependency>
   <groupId>com.github.grantwest.eventually</groupId>
    <artifactId>hamcrest-eventually-matchers</artifactId>
-   <version>0.0.1</version>
+   <version>0.0.2</version>
    <scope>test</scope>
 </dependency>
 ```
