@@ -3,7 +3,7 @@
 
   <groupId>com.github.grantwest.eventually</groupId>
   <artifactId>hamcrest-eventually-matchers</artifactId>
-  <version>0.0.3</version>
+  <version>0.0.4-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <description>Simple asynchronous hamcrest matchers</description>
@@ -27,7 +27,7 @@
     <url>https://github.com/grantwest/eventually-matchers</url>
     <connection>scm:git:git://github.com/grantwest/eventually-matchers.git</connection>
     <developerConnection>scm:git:git@github.com:grantwest/eventually-matchers.git</developerConnection>
-    <tag>hamcrest-eventually-matchers-0.0.3</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
