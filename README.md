@@ -31,6 +31,10 @@ The eventually matchers have a default timeout of 5 seconds. The timeout can be 
 assertThat(() -> b, eventuallyEval(is(true), Duration.ofSeconds(30)));
 ```
 
+To assert that `someFunction()` eventually returns true:
+```java
+assertThat(() -> someFunction(), eventuallyEval(is(true)));
+```
 
 The matchers are known to work with:
 - junit 4.12
